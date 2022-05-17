@@ -1,0 +1,151 @@
+// SERVICES SECTION
+
+.services-container{
+  margin: 70px auto;
+}
+
+.servicesnav{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+
+  &__list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid #C0CAD5;
+    border-radius: 3px;
+  }
+
+  &__item{
+    padding: 9px 30px;
+  }
+
+  &__link{
+    text-decoration: none;
+    color: #00094A;
+  }
+
+  &__link:hover{
+    background: #00094A;
+    border-radius: 3px;
+    color: #FFFFFF;
+  }
+}
+
+.servmenu{
+  display: flex;
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding: 36px 0 50px 0;
+    list-style-type: none;
+  }
+
+  &__item{
+    height: 450px;
+    margin-top: 14px;
+
+    &__first{
+      max-width: 310px;
+
+      background-image: url(../images/img.png);
+    }
+
+    &__second{
+      max-width: 310px;
+
+      background-image: url(../images/second.png);
+    }
+
+    &__third{
+      max-width: 310px;
+
+      background-image: url(../images/third.png);
+    }
+
+    &__fourth{
+      max-width: 310px;
+      background-image: url(../images/fourth.png);
+    }
+
+    &__fifth{
+      max-width: 310px;
+      background-image: url(../images/fifth.png);
+    }
+
+    &__sixth{
+      max-width: 310px;
+
+      background-image: url(../images/sixth.png);
+    }
+
+    &__seventh{
+      width: 634px;
+
+      background-image: url(../images/big-img.png);
+    }
+  }
+
+  &__link{
+    display: flex;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 100%;
+    height: 450px;
+
+    &__seventh{
+      width: 634px;
+    }
+  }
+
+  &__desc{
+    display: flex;
+    margin: 0;
+    padding: 371px 20px 35px 20px;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    background: linear-gradient(180deg, rgba(0, 9, 74, 0) 50%, #00094A 100%);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    &__seventh{
+      width: 100%;
+    }
+  }
+}
+
+#services-link{
+  display: flex;
+  margin: 0 auto;
+  width: 192px;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  padding: 14px 50px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #00094A;
+  border-radius: 3px;
+  border: 3px solid transparent;
+}
+
+#services-link:hover{
+  background-color: #FFFFFF;
+  color: #00094A;
+  border: 3px solid #00094A;
+}

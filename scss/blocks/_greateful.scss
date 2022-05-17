@@ -1,0 +1,63 @@
+.greateful {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+
+}
+
+.greateful__container {
+  background-image: url(../../images/greateful-back.png);
+  background-size: 44px 10px;
+  background-repeat: no-repeat;
+  background-position: center top 555px;
+}
+
+.greateful__heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #00094A;
+
+  &-part {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #00094A;
+  }
+}
+
+.greateful__desc {
+  width: 595px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 75px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00094A;
+  opacity: 0.8;
+}
+
+.greateful__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 111px;
+  margin: -14px;
+  list-style: none;
+}
+
+.greateful__item {
+  margin: 14px;
+}
+
+.greateful__btn {
+  margin-top: 111px;
+  padding: 14px 29px;
+  align-self: center;
+}

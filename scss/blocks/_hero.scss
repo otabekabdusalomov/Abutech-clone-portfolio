@@ -1,0 +1,46 @@
+.hero-container {
+  background-image: url("../images/Rectangle 154.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 398px;
+  margin-top: 16px;
+}
+
+.hero-wrap {
+  margin-left: 63px;
+  padding-bottom: 59px;
+}
+
+.hero-heading {
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 43px;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+
+.hero-desc {
+  margin: 0;
+  padding: 0;
+  width: 493px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.hero-btn {
+  background-image: url("../images/play button.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 69px;
+}
